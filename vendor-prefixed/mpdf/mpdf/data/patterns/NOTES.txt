@@ -1,0 +1,8 @@
+Alternative sources of Hyphenation programs or TEX files:
+
+OpenOffice: http://wiki.services.openoffice.org/wiki/Dictionaries
+
+Hyphenator4PHP- alternative PHP hyphenator scripts: http://apps.sourceforge.net/trac/hyphenator4php/
+
+
+824783-1744606775-au

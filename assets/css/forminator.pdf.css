@@ -1,0 +1,332 @@
+html,
+body,
+td,
+table {
+  font-family: helvetica, arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.forminator-pdf-receipt-template table,
+.logo-container,
+.total-container {
+  margin-bottom: 30px;
+}
+
+.forminator-field-float {
+  float: left;
+}
+
+a {
+  color: #0059ff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: underline;
+}
+
+th,
+.table-title strong,
+.forminator-pdf-receipt-template thead td {
+  color: #444444;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.forminator-pdf-receipt-template td {
+  color: #222;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+td {
+  vertical-align: top;
+}
+
+.forminator-rich-text td,
+.forminator-rich-text th {
+  padding: 5px 10px;
+}
+
+.content-container {
+  background: #f8f8f8;
+}
+
+.content-container thead td {
+  color: #555;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+table td > table {
+  margin-bottom: 15px;
+}
+
+.total-container td,
+.forminator-total-container-field {
+  padding: 10px 30px;
+  text-align: right;
+}
+
+.total-amount {
+  color: #222;
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 33px;
+}
+
+.total-container {
+  border: 1px solid #e6e6e6;
+}
+
+.total-container tr td,
+.forminator-total-container-field {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.row-heading td {
+  font-weight: bold;
+}
+
+.row-content td {
+  width: 50%;
+}
+
+/* Basic template styles */
+
+.forminator-field-label,
+.forminator-pdf-basic-template .row-heading {
+  background-color: #eeeeee;
+}
+
+.forminator-pdf-basic-template .total-container {
+  margin-top: 30px;
+}
+
+.forminator-field-label,
+.forminator-pdf-basic-template .row-heading td {
+  font-size: 13px;
+  font-weight: bold;
+  color: #444444;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+.forminator-field-content,
+.forminator-pdf-basic-template .forminator-row-content td {
+  font-size: 16px;
+  color: #222222;
+  padding: 5px 10px 20px 10px;
+}
+
+.forminator-pdf-basic-template .total-container td,
+.forminator-pdf-basic-template .forminator-total-container-field {	  		 		 	   	     	 	 
+  padding: 10px 30px;
+}
+
+.forminator-pdf-basic-template
+  .forminator-payment-table
+  .forminator-row-content
+  td {
+  padding: 0;
+}
+
+ul,
+li {
+  list-style-position: outside;
+}
+
+p {
+  margin: 0;
+}
+
+.forminator-pdf-row {
+  float: left;
+}
+
+.forminator-pdf-col {
+  margin: 0 2px;
+}
+
+.forminator-pdf-div-layout {
+  margin: 0 -2px;
+}
+
+/* pdf payment field styles */
+.forminator-payment-field {
+  width: 48%;
+  padding: 5px 10px;
+}
+
+.forminator-payment-main-content {
+  padding: 5px 10px;
+}
+
+/* pdf header styles */
+.logo-container td {
+  padding: 0;
+  vertical-align: middle;
+}
+
+.logo-container {
+  vertical-align: middle;
+}
+
+.logo-container td {
+  white-space: nowrap;
+}
+
+h1 {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 60px;
+  margin: 0;
+}
+
+.logo-wrapper {
+  color: #000;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 60px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.forminator-pdf-receipt-template h1 {
+  text-transform: uppercase;
+}
+
+.align-title--left {
+  text-align: left;
+}
+
+.align-title--center {
+  text-align: center;
+}
+
+.align-title--right {
+  text-align: right;
+}
+
+/* pdf footer styles */
+.forminator-pdf-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+div.forminator-pdf-footer-text,
+.forminator-pdf-footer-text td {
+  color: #222;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
+
+div.forminator-pdf-pagination,
+.forminator-pdf-pagination td {
+  color: #222;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.forminator-pdf-pagination td,
+.forminator-pdf-footer-text td {
+  padding: 5px 10px;
+}
+
+.pdf-title-wrapper {
+  width: 100%;
+}
+
+.logo-container td.pdf-title-wrapper {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+/* rtl styles */
+.pdf-rtl th,
+.pdf-rtl .table-title strong,
+.pdf-rtl .row-heading td,
+.pdf-rtl .align-title--left {
+  text-align: right;
+}
+
+.pdf-rtl .align-title--right,
+.pdf-rtl .total-container td,
+.pdf-rtl .total-amount,
+.pdf-rtl .forminator-pdf-pagination td,
+.pdf-rtl .forminator-total-container-field {
+  text-align: left;
+}
+
+.pdf-rtl .logo-container td.pdf-title-wrapper {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.pdf-rtl .forminator-pdf-row {
+  float: right;
+}
+
+.pdf-rtl .forminator-field-float {
+  float: right;
+}
+
+.forminator-rating-icon {
+  font-family: forminator-pdf-icons !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.forminator-rating-field {
+  font-size: 24px;
+  color: #aaa;
+}
+
+.forminator-rating-size--sm {
+  font-size: 16px;
+}
+
+.forminator-rating-size--lg {
+  font-size: 32px;
+}
+
+.forminator-rating-active {
+  color: #ff7e41;
+}
+
+.forminator-rating-suffix {
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: -0.25px;
+  color: #888;
+}
+
+
+/* 824783-1744606775-au */

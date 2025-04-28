@@ -1,0 +1,326 @@
+# Copyright (C) 2025 WPMU DEV
+# This file is distributed under the same license as the Forminator PDF Generator Add-on package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Forminator PDF Generator Add-on 1.8.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/build\n"
+"POT-Creation-Date: 2025-04-08 12:07:49+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: core/classes/class-pdf-form-actions.php:143
+msgid "Failed to import PDF."
+msgstr ""
+
+#: core/classes/class-pdf-form-actions.php:158
+msgid "Failed to import PDF settings."
+msgstr ""
+
+#: core/classes/class-pdf-form-actions.php:182
+msgid "Form model doesn't exist"
+msgstr ""
+
+#: core/classes/class-pdf-form-actions.php:233
+msgid "Empty response"
+msgstr ""
+
+#: core/classes/class-pdf-form-actions.php:287
+msgid "You are not allowed to download a PDF."
+msgstr ""
+
+#: core/classes/class-pdf-form-actions.php:291
+#: core/classes/class-pdf-form-actions.php:499
+msgid "Failed to get PDF. Please try again."
+msgstr ""
+
+#: core/classes/class-pdf-form-actions.php:298
+msgid "Something went wrong"
+msgstr ""
+
+#: core/classes/class-pdf-form-actions.php:311
+msgid "Download PDF"
+msgstr ""
+
+#: core/classes/class-pdf-form-actions.php:341
+msgid "You are not allowed to download all PDFs."
+msgstr ""
+
+#: core/classes/class-pdf-form-actions.php:397
+msgid "ZipArchive class does not exist."
+msgstr ""
+
+#: core/classes/class-pdf-form-actions.php:426
+msgid ""
+"Forminator PDF Generator Add-on requires the following modules (mbstring "
+"and gd). Please contact your hosting provider to enable the extensions."
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:69
+msgid "Page "
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:70
+msgid " of "
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:237
+#: core/classes/class-pdf-generation.php:282
+msgid "Download PDF(s)"
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:267
+msgid "Download all files"
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:278
+msgid "No PDF file available"
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:353
+msgid ""
+"%sForminator PDF Generator Add-on%s requires the following modules "
+"(%smbstring%s and %sgd%s). Please contact your hosting provider to enable "
+"the extensions."
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:379
+#: core/classes/class-pdf-generation.php:398
+msgid "The mbstring extension is not installed."
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:382
+msgid "PHP extension mbstring is supported"
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:385
+msgid "Performance"
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:390
+#: core/classes/class-pdf-generation.php:405
+msgid "The mbstring extension is required for Forminator's PDF Add-on."
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:404
+#. translators: Hidden accessibility text.
+msgid "Error"
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:413
+#. translators: Localized Support reference.
+msgid "Get help resolving this issue."
+msgstr ""
+
+#: core/classes/class-pdf-generation.php:415
+#. translators: Hidden accessibility text.
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: core/fields/all-form-data.php:56 core/fields/all-form-data.php:67
+msgid "All Form Data"
+msgstr ""
+
+#: core/fields/payment.php:56
+msgid "Payment"
+msgstr ""
+
+#: core/fields/payment.php:68 core/templates/template-receipt-pdf.php:80
+msgid "Product Name"
+msgstr ""
+
+#: core/fields/payment.php:79 core/templates/template-receipt-pdf.php:91
+msgid "Price"
+msgstr ""
+
+#: core/fields/payment.php:80 core/templates/template-receipt-pdf.php:92
+msgid "Quantity"
+msgstr ""
+
+#: core/fields/payment.php:81 core/templates/template-receipt-pdf.php:93
+msgid "Type"
+msgstr ""
+
+#: core/fields/payment.php:82 core/templates/template-receipt-pdf.php:94
+msgid "Payment Method"
+msgstr ""
+
+#: core/fields/payment.php:83 core/templates/template-receipt-pdf.php:95
+msgid "Transaction ID"
+msgstr ""
+
+#: core/fields/payment.php:84 core/templates/template-receipt-pdf.php:96
+msgid "Payment Status"
+msgstr ""
+
+#: core/fields/payment.php:85 core/templates/template-receipt-pdf.php:97
+msgid "Subtotal"
+msgstr ""
+
+#: core/fields/payment.php:86 core/templates/template-receipt-pdf.php:98
+msgid "Tax"
+msgstr ""
+
+#: core/fields/payment.php:87
+msgid "Total Paid %s"
+msgstr ""
+
+#: core/fields/pdf-page-break.php:62
+msgid "Page Break"
+msgstr ""
+
+#: core/fields/rich-text.php:56
+msgid "Rich Text"
+msgstr ""
+
+#: core/fields/rich-text.php:67
+msgid "Label"
+msgstr ""
+
+#: core/helpers/helper-core.php:52
+msgid "A4"
+msgstr ""
+
+#: core/helpers/helper-core.php:53
+msgid "A4 - Landscape"
+msgstr ""
+
+#: core/helpers/helper-core.php:54
+msgid "Letter"
+msgstr ""
+
+#: core/helpers/helper-core.php:55
+msgid "Letter - Landscape"
+msgstr ""
+
+#: core/helpers/helper-core.php:56
+msgid "Legal"
+msgstr ""
+
+#: core/helpers/helper-core.php:57
+msgid "Legal - Landscape"
+msgstr ""
+
+#: core/helpers/helper-core.php:58
+msgid "Executive"
+msgstr ""
+
+#: core/helpers/helper-core.php:59
+msgid "Executive - Landscape"
+msgstr ""
+
+#: core/helpers/helper-core.php:60
+msgid "Folio"
+msgstr ""
+
+#: core/helpers/helper-core.php:61
+msgid "Folio - Landscape"
+msgstr ""
+
+#: core/helpers/helper-core.php:62
+msgid "Tabloid"
+msgstr ""
+
+#: core/helpers/helper-core.php:63
+msgid "Ledger"
+msgstr ""
+
+#: core/helpers/helper-core.php:366
+msgid "Postdata"
+msgstr ""
+
+#: core/helpers/helper-core.php:370
+msgid "Paypal"
+msgstr ""
+
+#: core/templates/template-basic-pdf.php:27
+msgid "Basic PDF Form"
+msgstr ""
+
+#: core/templates/template-basic-pdf.php:28
+msgid "A simple Basic PDF form"
+msgstr ""
+
+#: core/templates/template-basic-pdf.php:67
+msgid "Form Data"
+msgstr ""
+
+#: core/templates/template-receipt-pdf.php:32
+msgid "Receipt PDF Form"
+msgstr ""
+
+#: core/templates/template-receipt-pdf.php:33
+msgid "A simple receipt PDF form"
+msgstr ""
+
+#: core/templates/template-receipt-pdf.php:58
+msgid "Payee details"
+msgstr ""
+
+#: core/templates/template-receipt-pdf.php:59
+#: core/templates/template-receipt-pdf.php:67
+#: core/templates/template-receipt-pdf.php:111
+msgid "Enter label"
+msgstr ""
+
+#: core/templates/template-receipt-pdf.php:66
+msgid "Payer details"
+msgstr ""
+
+#: core/templates/template-receipt-pdf.php:99
+msgid "Total %s"
+msgstr ""
+
+#: core/templates/template-receipt-pdf.php:110
+msgid "Additional Information"
+msgstr ""
+
+#: core/templates/template-receipt-pdf.php:141
+msgid "Invoice"
+msgstr ""
+
+#: forminator-addons-pdf.php:120
+msgid "Forminator %s is required! Activate it now or download it today!"
+msgstr ""
+
+#: forminator-addons-pdf.php:141
+msgid ""
+"%1$sForminator PDF Generator Add-on%2$s requires the latest version of "
+"Forminator Pro in order to work. Please install and activate the latest "
+"version %3$shere%4$s."
+msgstr ""
+
+#: forminator-addons-pdf.php:169
+#. translators: 1. Open H1 tag. 2. Close H1 tag and open P tag. 3. Open A tag.
+#. 4. Close A tag. 5. Close P tag.
+msgid ""
+"%1$sForminator PDF Generator Add-on%2$s requires the latest version of "
+"Forminator Pro in order to work. Please install and activate the latest "
+"version %3$shere%4$s.%5$s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Forminator PDF Generator Add-on"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpmudev.com/project/forminator/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Generate and send PDF files (e.g., form entries, receipts, invoices, "
+"quotations) to users after form submission."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPMU DEV"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpmudev.com"
+msgstr ""
